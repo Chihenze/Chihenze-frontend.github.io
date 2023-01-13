@@ -1,0 +1,1155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Fonts/Monsterat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto thin";
+    src: url(../Fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@mixin textstyle($style, $font-family) {
+    font-style: $style;
+    font-family: $font-family;
+}
+
+.header_button-style {
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+
+.header_image-style {
+    width: 1440px;
+}
+
+.header_text-style {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 84px;
+    margin-right: 0px;
+    margin-left: 16px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.header_text-center {
+
+    height: 300px;
+    position: absolute;
+    top: 223.5px;
+}
+
+.header_text-textstyle {
+    position: relative;
+    left: -41px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.header_text-textstyle-11 {
+    position: relative;
+    left: -41px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63.3px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.header_text-textstyle2 {
+    font-family: 'Roboto thin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24.5px;
+    line-height: 24px;
+    color: #F7F3F2;
+    position: relative;
+    left: -41px;
+
+}
+.header_mobileimage-style{
+    width: 0;
+    height: 0;
+}
+
+.header_button-bordstyle {
+    width: 225px;
+    height: 40px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.7px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_text-firsttext {
+    width: 93%;
+    position: relative;
+    top: 65px;
+    left: 45px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_container-image {
+    position: relative;
+    top: 81px;
+    left: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_image-style {
+    width: 300px;
+    height: 400px;
+}
+
+.image-style--popravka1 {
+    position: relative;
+    left: 17px;
+}
+
+.image-style--popravka2 {
+    position: relative;
+    left: 35px;
+}
+
+.main_text-firsttext2 {
+    width: 93%;
+    position: relative;
+    top: 169px;
+    left: 47px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_3container-style {
+    position: relative;
+    top: 185px;
+    left: 194px;
+    padding-left: 45px;
+}
+
+.main_3container-cardstyle {
+    width: 120px;
+    height: 120px;
+}
+
+.main_3container-peoplename {
+    width: 200px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    text-align: center;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_3container-text {
+    position: relative;
+    left: -56px;
+    width: 220px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    @include textstyle(normal, 'Roboto thin')
+}
+
+.main_3container-textpopravka {
+    position: relative;
+    left: -10px;
+}
+
+.main_3container-textpopravka2 {
+    left: -62px;
+}
+
+.main_3container-textpopravka3 {
+    width: 219px;
+    left: -52px;
+}
+
+.main_4container-style {
+    position: relative;
+    top: 326px;
+    padding: 0;
+    width: 93%;
+}
+
+.main_4container-textstyle {
+    width: 180px;
+    height: 40px;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_4container-textstyle2 {
+    position: relative;
+    top: 89px;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_5container-style {
+    position: relative;
+    top: 434px;
+}
+
+.main_5container-cardstyle {
+    width: 300px;
+    height: 310px;
+}
+
+.main_5container2-style {
+    position: relative;
+    top: 19px;
+    padding-left: 26px;
+}
+
+.main_5container3-style {
+    position: relative;
+    top: 39px;padding-left: 26px;
+}
+
+.main_5container-downtext {
+    position: relative;
+    top: 127px;
+    left: 19px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.main_5container-downtext2 {
+    width: 96%;
+    position: relative;
+    top: 164px;
+    left: 18px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    @include textstyle(normal, 'Roboto thin')
+}
+
+.main_5container-textarea {
+    position: relative;
+    top: 172px;
+    left: 286px;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    @include textstyle(normal, 'Roboto thin')
+}
+
+.main_5-6container-style {
+    height: 200px;
+}
+
+.main_5-6container-buttonstyle {
+    width: 172.12px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FF4E50;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    top: 116px;
+    left: 595px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.footer_hr-style {
+    width: 1440px;
+    background: #FF4E50;
+    height: 2px;
+    position: relative;
+
+    top: 461px;
+}
+
+.footer_1container-style {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 150px;
+}
+
+.dreamtext {
+    position: relative;
+    top: 254px;
+    left: 10px;
+}
+
+.footer_text-style01 {
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    position: relative;
+    left: 46px;
+    top: 1px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.footer_text-style1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    left: 18px;
+    top: 3px;
+    width: 200px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.f_t1-popravka {
+    position: relative;
+    left: -1px;
+}
+
+.footer_text-style2 {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+    position: relative;
+    left: 17px;
+    top: 3px;
+    @include textstyle(normal, 'Montserrat')
+}
+
+.footer_text-otherstyle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    position: relative;
+    left: 18px;
+    top: 1px;
+    @include textstyle(normal, 'Roboto thin')
+}
+
+.footer_image-laststyle {
+    position: relative;
+    left: 68px;
+    top: 1px;
+}
+
+.header_tabletimage-style {
+    width: 0;
+    height: 0;
+}
+
+.header_navbar-syle {
+    padding-left: 130px;
+    padding-top: 25px;
+}
+
+.header_containerflu-style {
+    padding: 1% 7%;
+}
+
+.header_navser-style {
+    width: 60px;
+}
+
+.header_leftnav-style {
+    width: 246.5px;
+    display: flex;
+    justify-content: start;
+}
+
+.main_2image-style {
+    width: 0;
+    height: 0;
+}
+
+.main_avatar4col-style {
+    padding: 0;
+    width: 241px;
+}
+
+.main_avatar3col-style {
+    padding: 0;
+    width: 241px;
+}
+
+.main_avatar2col-style {
+    padding: 0;
+    width: 241px;
+}
+
+.main_avatar1col-style {
+    padding: 0;
+    width: 220px;
+}
+
+.main_5container-cards {
+    padding-right: 0;
+    padding-left: 10px;
+    width: 331px;
+
+}
+
+.main_5container2-cardstyle {
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+.main_5container-cards2 {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 320px;
+}
+
+.main_5container-rowres {
+    padding-left: 26px;
+}
+
+.main_5container-imagestyle11 {
+    width: 300px;
+    height: 310px;
+    border: 0;
+}
+
+.main_5container-imagestyle22 {
+    width: 620px;
+    height: 310px;
+    border: 0;
+}
+
+.main_5container2-colstyle {
+    padding-right: 0px;
+    border: 0;
+    width: 330px;
+}
+
+.main_5container2-colstyle2 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.main_5container-imagestyle1 {
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+.main_5container-imagestyle2 {
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+.main_5container3-image11 {
+    width: 0;
+    height: 0;
+}
+
+.main_5container3-image22 {
+    width: 0;
+    height: 0;
+}
+
+.main_5container3-image1 {
+    width: 620px;
+    height: 310px;
+}
+
+.main_5container3-image2 {
+    width: 300px;
+    height: 310px;
+}
+
+.main_3image-style {
+    width: 0;
+    height: 0;
+}
+.main_5container3-image3{
+    width: 0;
+    height: 0;
+}
+.main_5container-imagestyle1a3{
+    width: 0;
+    height: 0;
+}
+.main_5container3-cardfixes{
+width: 0;
+height: 0;
+}
+@media screen and (max-width:2440px) {}
+
+@media screen and (max-width:768px) {
+    .header_dreamimage-style {
+        width: 0;
+        height: 0;
+    }
+
+    .header_tabletimage-style {
+        width: 768px;
+        height: 700px;
+        position: relative;
+        top: -25px;
+    }
+
+    .header_navbar-syle {
+        padding-left: 0;
+        padding-top: 33.5px;
+    }
+
+    .header_text-style {
+        margin-left: 0;
+    }
+
+    .header_containerflu-style {
+        padding-left: 49px;
+    }
+
+    .header_navser-style {
+        width: 65px;
+        display: flex;
+    }
+
+    .header_righttext-style {
+        width: 70px;
+    }
+
+    .header_leftnav-style {
+        width: 246.5px;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        left: 59px;
+    }
+
+    .header_text-textstyle {
+        position: relative;
+        left: -24px;
+    }
+
+    .header_text-textstyle-11 {
+        position: relative;
+        left: -25px;
+    }
+
+    .header_text-textstyle2 {
+        position: relative;
+        left: -25px;
+    }
+
+    .header_button-bordstyle {
+        position: relative;
+        left: -25px;
+    }
+
+    .main_text-firsttext {
+        top: 70px;
+        left: 25px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .main_container-image {
+        justify-content: start;
+        top: 89px;
+        left: 36px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_image-style {
+        width: 0;
+        height: 0;
+    }
+
+    .main_2image-style {
+        width: 236px;
+        height: 400px;
+        position: relative;
+        top: -400px;
+        left: -20px;
+    }
+
+    .image2-style--popravka1 {
+        position: relative;
+        left: -5px;
+    }
+
+    .image2-style--popravka2 {
+        position: relative;
+        left: 9px;
+    }
+
+    .main_col-768res {
+        width: 236px;
+        height: 400px;
+    }
+
+    .main_text-firsttext2 {
+        top: 183px;
+        font-size: 22px;
+        line-height: 27px;
+        width: 86%;
+    }
+
+    .main_3container-style {
+        padding-left: 0px;
+        left: 172px;
+        top: 202px;
+    }
+
+    .main_avatar3col-style {
+        position: relative;
+        top: 259px;
+        left: -250px;
+    }
+
+    .main_avatar2col-style {
+        position: relative;
+        top: -144px;
+        left: 256px;
+    }
+
+    .main_avatar4col-style {
+        width: 250px;
+    }
+
+    .main_avatar1col-style {
+        position: relative;
+        top: 115px;
+        left: 15px;
+    }
+
+    .main_4container-style {
+        top: 442px;
+    }
+
+    .main_4container-textstyle2 {
+        font-size: 22px;
+        line-height: 27px;
+        top: 93px;
+    }
+
+    .main_5container-cardstyle {
+        width: 0;
+        height: 0;
+    }
+
+    .main_5container2-cardstyle {
+        width: 236px;
+        height: 310px;
+    }
+
+    .main_5container-cards {
+        padding-left: 0;
+        width: 236px;
+        height: 310px;
+    }
+
+    .main_5container-cards2 {
+        position: relative;
+        left: 21px;
+        width: 236px;
+        height: 310px;
+    }
+
+    .main_5container-cards3 {
+        position: relative;
+        left: 41px;
+        width: 236px;
+        height: 310px;
+    }
+
+    .main_5container-rowres {
+        width: 708px;
+        padding-left: 0;
+        position: relative;
+        top: 93px;
+        left: -93px;
+    }
+
+    .main_5container2-style {
+        padding-left: 0;
+        width: 708px;
+        position: relative;
+        top: 93px;
+        left: -93px;
+    }
+
+    .main_5container-imagestyle12 {
+        width: 0;
+        height: 0;
+    }
+
+    .main_5container-imagestyle22 {
+        width: 0;
+        height: 0;
+    }
+
+
+    .main_5container2-colstyle {
+        width: 0;
+        height: 0;
+    }
+
+    .main_5container-style {
+        top: 460px;
+    }
+
+    .main_5container-imagestyle1 {
+        width: 236px;
+        height: 310px;
+        position: relative;
+        top: -288px;
+        left: -10px;
+    }
+
+    .main_5container-imagestyle2 {
+        width: 492px;
+        height: 310px;
+        position: relative;
+        top: 22px;
+        left: 246px;
+    }
+
+    .main_5container3-image1 {
+        width: 0;
+        height: 0;
+    }
+
+    .main_5container3-image2 {
+        width: 0;
+        height: 0;
+    }
+
+    .main_5container3-image11 {
+        width: 492px;
+        height: 310px;
+        position: relative;
+        left: -131px;
+        top: 96px;
+    }
+
+    .main_5container3-image22 {
+        width: 236px;
+        height: 310px;
+        position: relative;
+        top: -238px;
+        left: 373px;
+    }
+
+    .main_5container3-cardfix {
+        width: 0;
+        height: 310px;
+    }
+
+    .main_5container-downtext {
+        top: -105px;
+        left: 12px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .main_5container-downtext2 {
+        top: -68px;
+        left: 11px;
+        font-size: 18px;
+        line-height: 14px;
+    }
+
+    .main_5container-textarea {
+        top: -61px;
+        left: 39px;
+    }
+
+    .main_5-6container-buttonstyle {
+        top: -114px;
+        left: 347px;
+    }
+
+    .footer_hr-style {
+        width: 768px;
+        top: 247px;
+    }
+
+    .footer_text-style01 {
+
+        left: -64px;
+    }
+
+    .dreamtext {
+        left: -3px;
+        top: 24px;
+    }
+
+    .f_t1-popravka {
+        left: 55px;
+
+    }
+
+    .footer_text-style2 {
+        left: 91px;
+
+    }
+
+    .footer_image-laststyle {
+        left: 80px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header_tabletimage-style {
+        width: 0;
+        height: 0;
+    }
+
+    .header_mobileimage-style {
+        width: 320px;
+        height: 540px;
+        position: relative;
+        top: -24px;
+    }
+
+    .header_text-style {
+        position: relative;
+        left: 37px;
+        top: 115px;
+    }
+
+    .header_leftnav-style {
+        left: -41px;
+        top: -41px;
+    }
+
+    .header_text-textstyle {
+        font-size: 30px;
+        line-height: 37px;
+        position: relative;
+        left: -3px;
+        top: -21px;
+    }
+
+    .header_text-textstyle-11 {
+        font-size: 30px;
+        line-height: 37px;
+        position: relative;
+        left: -3px;
+        top: -21px;
+    }
+
+    .header_text-textstyle2 {
+        width: 290px;
+        font-size: 19.4px;
+        line-height: 24px;
+        position: relative;
+        left: 15px;
+        top: -43px;
+    }
+
+    .header_button-bordstyle {
+        width: 280px;
+        left: 0px;
+        top: -30px;
+    }
+
+    .main_text-firsttext {
+        font-size: 22px;
+        line-height: 27px;
+        top: 10px;
+        left: 0;
+        width: 100%;
+    }
+
+    .main_2image-style {
+        width: 0;
+        height: 0;
+    }
+
+    .main_3image-style {
+        width: 300px;
+        height: 240px;
+        position: relative;
+        top: -880px;
+        left: 17px;
+    }
+
+    .image22-style--popravka1 {
+        position: relative;
+        top: -1030px;
+        left: 10px;
+    }
+
+    .image33-style--popravka1 {
+        position: relative;
+        top: -780px;
+        left: 7px;
+    }
+
+    .main_text-firsttext2 {
+        width: 100%;
+        top: -415px;
+        left: 0px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .main_3container-style {
+        width: 201px;
+        left: 98px;
+        top: -418px;
+    }
+
+    .main_avatar2col-style {
+        top: -65px;
+        left: 0;
+    }
+
+    .main_avatar3col-style {
+        left: 0;
+        top: 317px;
+    }
+
+    .main_avatar1col-style {
+        left: 0;
+        top: 250px;
+    }
+
+    .main_3container-textpopravka3 {
+        font-size: 14px;
+        line-height: 14px;
+        width: 240px;
+        top: -6px;
+        left: -60px;
+    }
+    .main_4container-style{
+        top: -45px;
+    }
+    .main_4container-textstyle{
+        width: 280px;
+    }
+    .main_4container-textstyle2{
+        font-size: 22px;
+line-height: 27px;
+top: 34px;
+width: 280px;
+left: 8px;
+    }
+    .main_5container2-cardstyle{
+        width: 0;
+        height: 0;
+    }
+    .main_5container3-image3{
+width: 300px;
+height: 120px;
+    }
+    .main_5container-style{
+        top: 0;
+    }
+    .main_5container-rowres{
+        width: 280px;
+        left: 22px;
+        top: 4px;
+    }
+    .main_5container-cards{
+        height: 120px;
+        left: 0;
+    }
+    .main_5container-cards2{
+        height: 120px;
+        left: 0;
+        margin-top: 10px;
+    }
+    .main_5container-cards3{
+        left: 0;
+        margin-top: 10px;
+    }
+    .main_5container-imagestyle2{
+        width: 0;
+        height: 0;
+    }
+   .main_5container-imagestyle1{
+        width: 0;
+        height: 0;
+     }
+     .main_5container-imagestyle1a3{
+width: 300px;
+height: 120px;
+left: 20px;
+top: -42px;
+     }
+     .main_5container2-style{
+        left: 2px;
+        padding-left: 0;
+        width: 320px;
+        top: -157px;
+     }
+     .main_5container-imagestyle11{
+        height: 155px;
+     }
+     .m_5-img1a3popr{
+        position: relative;
+        left: 7px;
+     }
+     .main_5container3-cardfix{
+        width: 0;
+        height: 0;
+
+     }
+     .main_5container3-cardfixes{
+        width: 300px;
+        height: 120px;
+
+     }
+     .main_5container3-image22{
+        width: 0;
+        height: 0;
+     }
+     .main_5container3-image11{
+        width: 0;
+        height: 0;
+     }
+     .main_5container3-style{
+        width: 319px;
+        top: -57px;
+        left: 10px;
+        padding-left: 0;
+     }
+     .main_5container3-image3a2{
+        position: relative;
+        top: -15px;
+        left: -8px;
+     }
+     .main_5container-downtext{
+        top: -38px;
+        left: 4px;
+     }
+     .main_5container-downtext2{
+        width: 100%;
+        font-size: 18px;
+line-height: 14px;
+top: -34px;
+left: 0;
+     }
+     .main_5container-textarea{
+        width: 280px;
+        left: -3px; 
+        top: -35px;
+     }
+     .main_5-6container-buttonstyle{
+        width: 280px;
+        top: -41px;
+        left: -3px;
+     }
+     .footer_text-style01{
+        left: 80px;
+        top: -3px;
+        font-size: 16px;
+line-height: 20px;
+     }
+     .footer_text-style1{
+        width: 180px;
+        left: 105px;
+        top: -5px;
+     }
+     .f_t-position{
+        width: 50px;
+        left: 46px;
+        top: -17px;
+     }
+     .f_t-positioncont{
+width: 50px;
+left: 95px;
+top: -43px;
+     }
+     .f_t-positionpres{
+        width: 50px;
+        left: 158px;
+        top: -69px;
+     }
+     .f_t-positionblo{
+        width: 50px;
+        left: 206px;
+        top: -95px;
+     }
+     .f_t-positionterms{
+        width: 150px;
+        left: 61px;
+        top: -95px;
+     }
+     .f_t-positionhelp{
+        width: 50px;
+        left: 188px;
+        top: -121px;
+     }
+     .f_t1-popravka{
+        top: -42px;
+        left: 120px;
+     }
+     .footer_text-style2{
+        left: 6px;
+        top: -43px;
+     }
+     .footer_image-laststyle{
+        left: 84px;
+        top: -46px;
+     }
+     .footer_hr-style{
+        width: 320px;
+        top: -172px;
+     }
+     .header_text-center{
+    padding-right: 0;
+    left: -5px;
+     }
+     .main_container-image{
+        left: 0;
+     }
+     .f-popravke{
+        position: relative;
+        top: -73px;
+     }
+     .f-popravke2{
+        position: relative;
+        top: -73px;
+     }
+     .f_t-papravka{
+        height: 200px;
+     }
+     .m_row-popravka{
+width: 320px;
+     }
+}
